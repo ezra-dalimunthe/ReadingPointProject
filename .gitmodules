@@ -1,0 +1,3 @@
+[submodule "AuthService"]
+	path = AuthService
+	url = https://ezra-dalimunthe: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@github.com/ezra-dalimunthe/AuthService.git
