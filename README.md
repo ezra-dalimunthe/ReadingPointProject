@@ -170,3 +170,19 @@ Hasil akhir akan terlihat pada Docker desktop dengan container-container yang be
 </tr>
 
 </tbody></table>
+
+
+## Membuka aplikasi
+
+Jalankan browser dan arahkan ke http://127.0.0.1:8900 
+
+Ada 4 user yang ditambahkan pada aplikasi ini [lihat file DatabaseSeeder.php untuk AuthService](https://github.com/ezra-dalimunthe/AuthService/blob/6a99b4a290d886bdb3b94d3788fcf0116babe712/database/seeders/DatabaseSeeder.php)
+
+|Username| Password | Role|
+|-|-|-|
+|admin@example.com|secret123|administrator, front_desk, book_manager, member_manager|
+|front_desk@example.com|secret123|front_desk|
+|book_manager@example.com|secret123|book_manager|
+|member_manager@example.com|secret123|member_manager|
+
+Tampilan pada Reading Point client akan berbeda untuk tiap user yang login. 
