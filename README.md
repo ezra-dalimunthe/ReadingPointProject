@@ -186,3 +186,5 @@ Ada 4 user yang ditambahkan pada aplikasi ini [lihat file DatabaseSeeder.php unt
 |member_manager@example.com|secret123|member_manager|
 
 Tampilan pada Reading Point client akan berbeda untuk tiap user yang login. 
+
+![Reading Point Client](readingpoint.png "Reading-Point")
