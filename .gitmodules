@@ -1,3 +1,15 @@
 [submodule "AuthService"]
 	path = AuthService
 	url = https://ezra-dalimunthe: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@github.com/ezra-dalimunthe/AuthService.git
+[submodule "MemberService"]
+	path = MemberService
+	url = https://github.com/ezra-dalimunthe/MemberService.git
+[submodule "BookService"]
+	path = BookService
+	url = https://github.com/ezra-dalimunthe/BookService.git
+[submodule "BorrowService"]
+	path = BorrowService
+	url = https://github.com/ezra-dalimunthe/BorrowService.git
+[submodule "ReadingPointWebFrontEnd"]
+	path = ReadingPointWebFrontEnd
+	url = https://@github.com/ezra-dalimunthe/ReadingPointWebFrontEnd.git
