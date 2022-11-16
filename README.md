@@ -78,7 +78,7 @@ database reading_point_borrow is ready
 Bila telah berjalan, eksekusi file setup-app.sh
 
 ```bash
-./setup.sh
+./setup-app.sh
 ```
 
 ## Hasil akhir
