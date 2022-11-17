@@ -100,7 +100,9 @@ Hasil akhir akan terlihat pada Docker desktop dengan container-container yang be
 <td>
 <ul>
 <li>9000/tcp, 0.0.0.0:8901-&gt;8000/tcp</li>
-<li> :::8901-&gt;8000/tcp</li></ul></td>
+<li> :::8901-&gt;8000/tcp</li>
+</ul>
+</td>
 <td> reading-point-auth-network</td>
 </tr>
 <tr>
@@ -119,7 +121,10 @@ Hasil akhir akan terlihat pada Docker desktop dengan container-container yang be
 </tr>
 <tr>
 <td>reading-point-book-app-service</td>
-<td>9000/tcp, 0.0.0.0:8902-&gt;8000/tcp, :::8902-&gt;8000/tcp</td>
+<td><ul>
+<li>9000/tcp, 0.0.0.0:8902-&gt;8000/tcp</li>
+<li> :::8901-&gt;8000/tcp</li>
+</ul></td>
 <td> reading-point-auth-network,reading-point-book-network</td>
 </tr>
 <tr>
@@ -151,23 +156,14 @@ Hasil akhir akan terlihat pada Docker desktop dengan container-container yang be
 <td> reading-point-member-network</td>
 </tr>
 <tr>
-<td colpan="3">BorrowService</td><td></td><td></td>
+<td colpan="3">ReadingPointWebFrontEnd</td><td></td><td></td>
 </tr>
 <tr>
-<td>reading-point-borrow-app-service</td>
-<td>9000/tcp, 0.0.0.0:8904-&gt;8000/tcp, :::8904-&gt;8000/tcp</td>
-<td> reading-point-auth-network,reading-point-book-network,reading-point-borrow-network,reading-point-member-network</td>
+<td>reading-point-frontend</td>
+<td>80/tcp, 0.0.0.0:8900->8000/tcp, :::8900->8000/tcp</td>
+<td>reading-point-frontend-network</td>
 </tr>
-<tr>
-<td>reading-point-borrow-db-service</td>
-<td>3306/tcp</td>
-<td> reading-point-borrow-network</td>
-</tr>
-<tr>
-<td>reading-point-borrow-redis-service</td>
-<td>6379/tcp</td>
-<td> reading-point-borrow-network</td>
-</tr>
+
 
 </tbody></table>
 
