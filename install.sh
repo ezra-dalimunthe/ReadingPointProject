@@ -42,8 +42,8 @@ export VUE_APP_BORROW_SERVICE_URL=http://127.0.0.1:8904
 # export VUE_APP_AUTH_SERVICE_URL=http://reading-point.com:8902
 # ..etc
 # OR IF THE SERVICES SET UP TO USE API GATEWAY, SET SOMETHING LIKE
-# export VUE_APP_AUTH_SERVICE_URL=http://reading-point.com
-# export VUE_APP_AUTH_SERVICE_URL=http://reading-point.com
+# export VUE_APP_AUTH_SERVICE_URL=http://reading-point.com/authsvc
+# export VUE_APP_BOOK_SERVICE_URL=http://reading-point.com/booksvc
 
 npm run build 
 
